@@ -1,4 +1,5 @@
 require(ore)
+regire(tidyverse)
 
 parse_afstem_regex <- function(string) {
   df<- data.frame(samlet_resultat=NA,
